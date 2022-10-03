@@ -1,0 +1,194 @@
+html {
+ box-sizing: border-box;
+}
+
+* ,
+*::before, 
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 0 10vw;
+    min-width: 600px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 250px;
+    gap: 8rem;
+    flex-shrink: 0;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.logo,
+.hero-title,
+button,
+.action {
+    color: #F9FAF8;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0%;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.links a,
+.hero-subtext,
+.hero-img,
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-subtext {
+    margin-bottom: 10px;
+}
+
+button,
+.action {
+    background-color: #3882F6;
+}
+
+button,
+.btn {
+    padding: 10px 28px;
+    border-radius: 7px;
+    font-weight: 800;
+}
+
+.btn {
+    border: 1px solid white;
+}
+
+.hero-img {
+    background-color: #767E85;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.cards {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 18px;
+    width: 150px;
+}
+
+blockquote {
+    background-color: #E5E7EB; 
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0; 
+    padding: 100px 380px;
+    
+}
+
+cite {
+    display: block;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-last {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 100px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 190px;
+    border-radius: 7px;
+    gap: 50px;
+}
+
+.action-header {
+    font-weight: 800;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+
